@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        nuxtjs
+        Welcome
       </h1>
       <h2 class="subtitle">
         My astonishing Nuxt.js project
@@ -23,6 +23,7 @@
         >
           GitHub
         </a>
+        <NuxtLink to="/about" class="button--grey">About page</NuxtLink>
       </div>
     </div>
   </div>
