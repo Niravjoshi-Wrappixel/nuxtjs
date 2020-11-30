@@ -1,0 +1,48 @@
+.featured-wrapper {
+  padding-top: 67px;
+  padding-bottom: 45px;
+}
+
+.featured-card {
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  margin-top: 30px;
+  overflow: hidden;
+  .featured-item {
+    padding: 23px 26px;
+    border-bottom: 1px solid $border-color;
+    display: flex;
+    align-items: start;
+    &:hover {
+      box-shadow: -6px 0px 24px 0px rgba(104, 113, 134, 0.15);
+      .featured-item-content {
+        .item-title {
+          color: $light-blue-1;
+        }
+      }
+    }
+    &:last-child {
+      border-bottom: 0;
+    }
+    .featured-icon {
+      margin-right: 22px;
+    }
+    .featured-item-content {
+      .category-title {
+        color: $blue;
+        &:hover {
+          color: $light-blue-1;
+        }
+      }
+      .badge {
+        padding: 0 8px;
+        border-radius: 4px;
+      }
+      .item-title {
+        font-size: 16px;
+        text-decoration: none;
+        color: $blue;
+      }
+    }
+  }
+}

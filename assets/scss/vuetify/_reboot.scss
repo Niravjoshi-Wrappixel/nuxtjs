@@ -1,0 +1,44 @@
+.theme--light.v-application {
+  color: $material-font-light-theme;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $heading-color;
+}
+
+.section-title {
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 28px;
+  }
+}
+
+.border-right {
+  border-right: 1px solid $border-color;
+}
+
+.border-left {
+  border-left: 1px solid $border-color;
+}
+
+.border-top {
+  border-top: 1px solid $border-color;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $border-color;
+}
+
+@media (max-width: 425px) {
+  .border-sm-right-0 {
+    border-right: 0;
+  }
+}

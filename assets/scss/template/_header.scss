@@ -1,0 +1,44 @@
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  .nav-item {
+    transition: 0.2s ease-in;
+    .nav-link {
+      text-decoration: none;
+      line-height: $nav-link-height;
+      height: $nav-link-height;
+      padding: $nav-link-padding;
+      font-size: $nav-link-font-size;
+      color: $nav-link-font-color;
+      font-family: $nav-link-font-family;
+    }
+    &:hover,
+    &.active {
+      .nav-link {
+        color: $nav-link-font-hover-color;
+      }
+    }
+  }
+}
+
+.app-header {
+  &.v-sheet {
+    background-color: $blue-1 !important;
+    height: 85px !important;
+    .v-toolbar__content {
+      height: 85px !important;
+    }
+  }
+}
+
+// .app-header {
+//   &.v-sheet {
+//     height: 100px;
+//     .v-toolbar__content {
+//       height: 100px !important;
+//     }
+//   }
+// }

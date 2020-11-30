@@ -1,0 +1,13 @@
+.theme--light,
+.theme--dark {
+  &.v-input input::placeholder,
+  &.v-input textarea::placeholder {
+    color: $input-text-color !important;
+  }
+}
+
+.theme--light {
+  &.v-icon {
+    color: $blue;
+  }
+}

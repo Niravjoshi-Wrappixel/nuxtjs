@@ -1,0 +1,51 @@
+[
+	{
+		"id": 1,
+		"title" : "Home",
+		"dd":false,
+		"icon": "mdi-arrow-right",
+		"to": "/"
+	},
+	{	
+		"id": 2,
+		"title" : "Explore",
+		"dd":false,
+		"icon": "mdi-arrow-right",
+		"to": "/inspire"
+	},
+	{	
+		"id": 3,
+		"title" : "Questions",
+		"dd":false,
+		"icon": "mdi-arrow-right",
+		"to": "/Mail"
+	},
+	{	
+		"id": 4,
+		"title" : "Videos",
+		"dd":false,
+		"icon": "mdi-arrow-right",
+		"to": "/Videos"
+	},  
+	{	
+		"id": 5,
+		"title" : "Articles",
+		"dd":false,
+		"icon": "mdi-arrow-right",
+		"to": "/Articles"
+	},
+	{	
+		"id": 6,
+		"title" : "Resources",
+		"dd":false,
+		"icon": "mdi-arrow-right",
+		"to": "/Resources"
+	}, 
+	{	
+		"id": 7,
+		"title" : "Tools",
+		"dd":false,
+		"icon": "mdi-arrow-right",
+		"to": "/Tools"
+	}     
+]

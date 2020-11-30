@@ -1,18 +1,25 @@
 {
-  "name": "nuxtjs",
+  "name": "SEO-Debate",
   "version": "1.0.0",
-  "description": "My astonishing Nuxt.js project",
-  "author": "msweeneydev",
+  "description": "SEO Debate",
+  "author": "Wrappixel",
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate",
-    "start": "nuxt start"
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "swiper": "^5.3.7",
+    "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.0",
+    "vue-fixed-header": "^3.2.14",
+    "vue-silentbox": "^2.2.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "@nuxtjs/vuetify": "^1.11.2"
   }
 }

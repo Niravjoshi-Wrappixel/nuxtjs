@@ -1,0 +1,50 @@
+.growlearn-wrapper {
+  padding-top: 105px;
+  padding-bottom: 67px;
+}
+
+.grow-card-row {
+  margin-top: 50px;
+}
+
+.grow-card {
+  .grow-icon {
+    &.v-btn:not(.v-btn--round).v-size--default {
+      height: 64px;
+      min-width: 64px;
+      max-width: 64px;
+    }
+  }
+  .grow-card-content {
+    padding: 20px;
+    .subtext-spacer {
+      margin-top: 20px;
+      color: $light-blue;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .video-card {
+    position: relative;
+    overflow: hidden;
+    .video-card-content {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .grow-card-row {
+    .col-sm-6 {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+  .grow-card {
+    .v-card__text {
+      padding-bottom: 0;
+    }
+  }
+}
